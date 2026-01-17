@@ -53,8 +53,10 @@ dotenv - Environment configuration
 
 
 
-API Endpoints
+API Endpoints  
+
 Job Description Generation
+
 POST /api/job/generate - Generate a job description with template selection
 
 POST /api/job/save - Save final job description to database
@@ -62,6 +64,7 @@ POST /api/job/save - Save final job description to database
 POST /api/job/download-pdf - Download job description as PDF
 
 Draft Management
+
 POST /api/job/save-draft - Save a job description draft
 
 GET /api/job/drafts - Get all saved drafts
@@ -71,6 +74,7 @@ GET /api/job/drafts/:id - Get single draft by ID
 DELETE /api/job/drafts/:id - Delete a draft
 
 Utility
+
 GET /api/job/all - Get all saved job descriptions
 
 
