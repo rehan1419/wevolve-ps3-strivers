@@ -129,11 +129,11 @@ npm or yarn package manager
 
 5. Frontend Setup
     '''bash
-    cd ../frontend
+        cd ../frontend
 
-    npm install
+        npm install
 
-    npm run dev
+        npm run dev
     
     Application runs on http://localhost:3000
 
