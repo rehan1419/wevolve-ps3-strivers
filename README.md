@@ -128,7 +128,7 @@ npm or yarn package manager
     The server will run on http://localhost:5000
 
 5. Frontend Setup
-    
+    '''bash
     cd ../frontend
 
     npm install
